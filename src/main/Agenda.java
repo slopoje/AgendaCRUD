@@ -113,7 +113,7 @@ public class Agenda {
         String telefono = "";
 
         try ( PreparedStatement st = BD.getConexion().prepareStatement("SELECT * FROM CONTACTO WHERE UPPER(NOMBRE) LIKE UPPER(?) ORDER BY NOMBRE")) {
-            st.setString(1, "%" + nombre + "%");
+            st.setString(1, nombre + "%");
             ResultSet rs = st.executeQuery();
             while (rs.next()) {
                 nombre = rs.getString("NOMBRE");

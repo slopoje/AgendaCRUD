@@ -1,0 +1,4 @@
+2021-04-21 19:09:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "CONTACTO" no encontrada
+Table "CONTACTO" not found; SQL statement:
+SELECT * FROM CONTACTO WHERE UPPER(NOMBRE) LIKE UPPER(?) ORDER BY NOMBRE [42102-200]
