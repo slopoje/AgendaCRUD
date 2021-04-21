@@ -100,7 +100,7 @@ public class Main {
                         break;
                     case "L": //Se listan todos los contactos de la agenda que cumplan el patrón de búsqueda
                         System.out.println(Color.dialogo("<<<Listar los contactos>>>"));
-                        System.out.print("Nombre (admite patrones de búsqueda):");
+                        System.out.print("Nombre (admite iniciales):");
                         nombre = teclado.nextLine();
                         System.out.println("");
                         System.out.println(Agenda.lista(nombre));
