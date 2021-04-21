@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 
 /**
- * Clase que modela la entidad-tabla Agenda.
+ * Clase que modela la entidad-tabla Agenda. xyz
  *
  * @author Sebastián López
  * @version abril/2021
